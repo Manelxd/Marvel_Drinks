@@ -17,6 +17,7 @@
     align-items: center;
     background: rgb(34, 33, 34);
     position: fixed;
+    z-index: 999;
 
 }
 
@@ -36,17 +37,33 @@
 
 /* detalhes da home Page */
 
-.home {
-    background-image: url(https://img.freepik.com/fotos-gratis/galaxia-no-plano-de-fundo-texturizado-do-espaco_53876-143060.jpg?w=1060);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+/* .home {
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.background {
+    background-image: url(https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+    filter: brightness(20%);
 }
 
-.home h1 {
+.container-title {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
     font-size: 30px;
 }
 
