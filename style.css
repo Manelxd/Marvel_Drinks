@@ -67,8 +67,61 @@
     font-size: 30px;
 }
 
+
+
+
 .about {
     display: flex;
-    background-color: rgb(88, 88, 197);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #050706;
+    padding: 15px 0;
 }
+
+.card-about {
+    margin-top: 30px;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    /* background-color: rgba(83, 92, 92, 0.267); */
+}
+
+.card-about h2 {
+   width: 12rem;
+   padding: 10px 5px;
+   background-color: #FD3836;
+}
+
+.card-about p {
+    padding: 16px 0px;
+}
+
+.benefits {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.benefits-list li {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px 16px;
+}
+
+.benefits-list li p {
+    padding: 20px 0;
+}
+
 
