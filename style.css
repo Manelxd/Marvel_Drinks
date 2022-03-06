@@ -6,10 +6,15 @@
     color: azure;
 }
 
+@font-face {
+    font-family: 'marvel';
+    src: url('assets/Bebas-Regular.otf') format('opentype');
+}
 
 /* Estilização header */
 
 .navbar {
+    font-family: marvel;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -61,6 +66,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: marvel;
 }
 
 .title {
@@ -88,6 +94,9 @@
 }
 
 .card-about h2 {
+    text-align: center;
+    letter-spacing: 2px;
+   font-family: marvel;
    width: 12rem;
    padding: 10px 5px;
    background-color: #FD3836;
@@ -106,13 +115,13 @@
 
 .benefits-list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
 }
 
 .benefits-list li {
-    width: 10rem;
+    width: 7rem;
     display: flex;
     flex-direction: column;
     text-align: center;
