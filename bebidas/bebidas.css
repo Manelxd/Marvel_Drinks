@@ -6,20 +6,9 @@
     color: white;
 }
 
-body{
-    background-color: #151515;
-    height: 100vh;
-}
 
-header{
-    width: 100vw;
-    height: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-section{
+section #bebidas{
     width: 100vw;
     height: 85%;
     display: flex;
@@ -28,7 +17,7 @@ section{
     justify-content: space-around;
 }
 
-div {
+div .bebidas{
     padding: 0 15px 0 15px;
     display: flex;
     flex-direction: column;
@@ -46,12 +35,12 @@ div li{
     list-style: none;
 }
 
-h1 {
+.titlle-bebidas {
     font-size: 24px;
     color: #9F0013;
 }
 
-h2 {
+.sub-titlle-bebidas {
     font-size: 20px;
 }
 

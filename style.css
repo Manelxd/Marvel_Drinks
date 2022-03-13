@@ -6,6 +6,10 @@
     color: azure;
 }
 
+body{
+    height: 100vh;
+}
+
 @font-face {
     font-family: 'marvel';
     src: url('assets/Bebas-Regular.otf') format('opentype');
@@ -57,6 +61,7 @@
 
     filter: brightness(20%);
 }
+
 
 .container-title {
     width: 100%;
@@ -132,5 +137,70 @@
 .benefits-list li p {
     padding: 20px 0;
 }
+
+#bebidas{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bebidas{
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100%;
+    padding: 15px;
+}
+
+#outros {
+    display: none;
+}
+
+#cervejas {
+    display: flex;
+}
+
+div li {
+    line-height: 40px;
+    list-style: none;
+}
+
+.titlle-bebidas {
+    font-size: 24px;
+    color: #9F0013;
+}
+
+.sub-titlle-bebidas {
+    font-size: 20px;
+}
+
+section .btn{
+    width: 100px;
+    color: #ffffff;
+    background-color: #9F0013;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    font-family: marvel;
+}
+
+li span { background: #050706 }
+li span+span { float: right }
+li { position: relative }
+.indice::before {
+  content: "";
+  display: block; position: absolute; z-index: -1;
+  top: 50%; width: 79%;
+  border-bottom: 2px dotted #9F0013;
+  
+}
+span{
+    padding-right: 10px;
+}
+
+
+
 
 
